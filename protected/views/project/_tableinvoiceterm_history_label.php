@@ -1,0 +1,1 @@
+<div class="label bg-green"><?php echo Yii::app()->db->createCommand("SELECT COUNT(id_project) FROM invoice where id_project=$model->id_project")->queryScalar();?> Printed</div>

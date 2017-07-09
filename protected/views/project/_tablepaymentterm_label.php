@@ -1,0 +1,1 @@
+<div class="label bg-yellow"><?php echo Yii::app()->db->createCommand("SELECT COUNT(id_project) FROM term where id_project=$model->id_project")->queryScalar();?> Terms</div>

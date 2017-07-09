@@ -1,0 +1,1 @@
+<div class="label bg-red"><?php echo Yii::app()->db->createCommand("SELECT SUM(status) FROM projectdetail where id_project=$model->id_project")->queryScalar();?> / <?php echo CHtml::encode($model->countproject()); ?>  Step</div>
