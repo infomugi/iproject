@@ -74,7 +74,7 @@ endif;
                         'header'=>'',
                         'type'=>'raw',
                         'visible'=>Yii::app()->user->record->level==1,
-                        'value'=>'CHtml::link("X", array("term/removeterm", "id"=>$data->id_payment_type), array("class"=>"ajaxupdate2","title"=>"Remove Term"));',
+                        'value'=>'CHtml::link("X", array("term/removeterm", "id"=>$data->id_payment_type), array("class"=>"ajaxupdate2 label label-warning","title"=>"Remove Term"));',
                         ),   
 
                   ),

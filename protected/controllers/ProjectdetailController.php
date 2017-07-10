@@ -32,7 +32,7 @@ class ProjectdetailController extends Controller
 	{
 		return array(
 			array('allow',
-				'actions'=>array('index','view','my','juiautocomplete','removetask'),
+				'actions'=>array('index','view','my','juiautocomplete','removetask','starttask','status'),
 				'users'=>array('@'),
 				),
 			array('allow',

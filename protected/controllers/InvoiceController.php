@@ -29,7 +29,7 @@ class InvoiceController extends Controller
 	{
 		return array(
 			array('allow',
-				'actions'=>array('create','update','view','delete','admin','index','approved','confirmation','createppm','createterm','juiautocomplete','print','report','my'),
+				'actions'=>array('create','update','view','delete','admin','index','approved','confirmation','createppm','createterm','juiautocomplete','print','report','my','removeinvoice'),
 				'users'=>array('@'),
 				'expression'=>'Yii::app()->user->record->level==1',
 				),

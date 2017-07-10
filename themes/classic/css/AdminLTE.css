@@ -11,10 +11,11 @@
 html,
 body {
   overflow-x: hidden!important;
-  font-family: arial, sans-serif;
+  font-family: 'Roboto',arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
   background: #f9f9f9;
+  font-size: 12px
 }
 a {
   color: #1F8BA5;
@@ -126,7 +127,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: arial, sans-serif;
+  font-family: 'Roboto',arial, sans-serif;
 }
 /* Page Header */
 .page-header {
@@ -669,7 +670,7 @@ font-weight: 700;
 .sidebar .sidebar-menu .treeview-menu > li > a {
   padding: 5px 5px 5px 15px;
   display: block;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0px 0px;
 }
 .sidebar .sidebar-menu .treeview-menu > li > a > .fa,
@@ -1312,7 +1313,7 @@ font-weight: 700;
 .small-box p > small {
   display: block;
   color: #f9f9f9;
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 5px;
 }
 .small-box h3,
@@ -1741,7 +1742,7 @@ font-weight: 700;
 .box .chat .item > .attachment > p,
 .box .chat .item > .attachment > .filename {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   font-style: italic;
   margin: 0;
 }

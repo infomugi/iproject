@@ -125,8 +125,8 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="col-xs-6">
-						Mugi Rachmat, ST., MTCNA., MOS., CCNA</BR>
-						<small> Chief Executive Officer</small></BR>
+						<?php echo $model->Useraccounts->fullname; ?></BR>
+						<small> Project Manager</small></BR>
 					</div>
 					<div class="col-xs-6">
 					</div>

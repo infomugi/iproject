@@ -47,21 +47,21 @@ return array(
 		),
 		*/
 
-	'db'=>array(
-		'connectionString' => 'mysql:host=127.0.0.1;dbname=u0282705_menpro',
-		'emulatePrepare' => true,
-		'username' => 'u0282705_menpro',
-		'password' => '3rA%g]};q#m*',
-		'charset' => 'utf8',
-		),
+	// 'db'=>array(
+	// 	'connectionString' => 'mysql:host=127.0.0.1;dbname=u0282705_menpro',
+	// 	'emulatePrepare' => true,
+	// 	'username' => 'u0282705_menpro',
+	// 	'password' => '3rA%g]};q#m*',
+	// 	'charset' => 'utf8',
+	// 	),
 
-// 		'db'=>array(
-// 			'connectionString' => 'mysql:host=127.0.0.1;dbname=db_aplikasi_menpro',
-// 			'emulatePrepare' => true,
-// 			'username' => 'root',
-// 			'password' => '',
-// 			'charset' => 'utf8',
-// 			),		
+		'db'=>array(
+		'connectionString' => 'mysql:host=127.0.0.1;dbname=i_project',
+		'emulatePrepare' => true,
+		'username' => 'root',
+		'password' => '',
+		'charset' => 'utf8',
+		),		
 
 		'errorHandler'=>array(
 			'errorAction'=>'site/error',

@@ -16,13 +16,13 @@
         'header'=>'Invoice Number',
         'type'=>'raw', 
         'value'=>'CHtml::link($data->invoice_number, array("invoice/view", "id"=>$data->id_invoice))',
-        'htmlOptions'=>array('width'=>'70px', 
+        'htmlOptions'=>array('width'=>'120px', 
           'style' => 'text-align: left;')),
 
       array(
         'header'=>'Description',
         'value'=>'$data->description',
-        'htmlOptions'=>array('width'=>'900px', 
+        'htmlOptions'=>array('width'=>'800px', 
           'style' => 'text-align: left;')),
 
       array(
@@ -38,7 +38,7 @@
         'header'=>'',
         'type'=>'raw',
         'visible'=>Yii::app()->user->record->level==1,
-        'value'=>'CHtml::link("X", array("invoice/removeinvoice", "id"=>$data->id_invoice), array("class"=>"ajaxupdate3","title"=>"Remove Invoice"));',
+        'value'=>'CHtml::link("X", array("invoice/removeinvoice", "id"=>$data->id_invoice), array("class"=>"ajaxupdate3 label label-success","title"=>"Remove Invoice"));',
         ),   
 
       ),

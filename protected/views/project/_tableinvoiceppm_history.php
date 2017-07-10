@@ -45,7 +45,7 @@ endif;
         'header'=>'',
         'type'=>'raw',
         'visible'=>Yii::app()->user->record->level==1,
-        'value'=>'CHtml::link("X", array("invoice/removeinvoice", "id"=>$data->id_invoice), array("class"=>"ajaxupdate3","title"=>"Remove Invoice"));',
+        'value'=>'CHtml::link("X", array("invoice/removeinvoice", "id"=>$data->id_invoice), array("class"=>"ajaxupdate3 label label-success","title"=>"Remove Invoice"));',
         ),   
 
 

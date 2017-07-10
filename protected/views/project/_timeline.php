@@ -188,16 +188,11 @@ th{width:250px;}
 @media (min-width: 60em) {
   /* line 142, ../sass/_timeline.scss */
   .timeline-horizontal {
-    overflow-x: scroll;
-    width: 95%;
-    margin: 0 auto;
+   overflow-x: scroll;
+    width: 100%;
+    margin: 0px;
     white-space: nowrap;
     padding-bottom: 4rem;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(85%, transparent), color-stop(85%, #e9eeef), color-stop(86%, #e9eeef), color-stop(86%, transparent));
-    background-image: -webkit-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
-    background-image: -moz-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
-    background-image: -o-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
-    background-image: linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
   }
   /* line 150, ../sass/_timeline.scss */
   .timeline-horizontal:before {
@@ -206,8 +201,8 @@ th{width:250px;}
   /* line 154, ../sass/_timeline.scss */
   .timeline-horizontal time {
     position: absolute;
-    bottom: -4.5rem;
-    left: 33%;
+    bottom: -3.5rem;
+    left: 28%;
   }
   /* line 159, ../sass/_timeline.scss */
   .timeline-horizontal time:before {
@@ -228,7 +223,7 @@ th{width:250px;}
   /* line 167, ../sass/_timeline.scss */
   .timeline-horizontal > li {
     display: inline-block;
-    width: 33%;
+    width: 21%;
     margin-right: 2rem;
   }
   /* line 170, ../sass/_timeline.scss */
@@ -260,7 +255,7 @@ th{width:250px;}
 .line {
   background-color: #ED5A64;
   height: 4px;
-  width: 110%;
+  width: 120%;
 }
 
 </STYLE>
