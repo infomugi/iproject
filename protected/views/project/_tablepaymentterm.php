@@ -66,7 +66,7 @@ endif;
                         'header'=>'Invoice',
                         'type'=>'raw', 
                         'visible'=>Yii::app()->user->record->level==1,
-                        'value'=>'$data->term_date < date("d-m-Y") ? CHtml::link("Create Invoice", array("invoice/createterm", "project"=>$data->id_project, "customer"=>$data->Project->id_customer, "paymentterm"=>$data->id_payment_type, "percent"=>$data->percent, "amount"=>$data->Project->amount * $data->percent / 100, "type"=>"Payment $data->percent of 100 %")) : "Unable to Create" ',
+                        'value'=>'$data->term_date <= date("d-m-Y") ? CHtml::link("Create Invoice", array("invoice/createterm", "project"=>$data->id_project, "customer"=>$data->Project->id_customer, "paymentterm"=>$data->id_payment_type, "percent"=>$data->percent, "amount"=>$data->Project->amount * $data->percent / 100, "type"=>"Payment $data->percent of 100 %")) : "Unable to Create" ',
                         'htmlOptions'=>array('width'=>'0px', 
                               'style' => 'text-align: left;')),
 
